@@ -1,0 +1,27 @@
+---
+interface Props {
+	permaLink?: string
+	date: Date;
+  }
+
+  const dateFormat = (dateToFormat: Date) => {
+	  const date = new Date(dateToFormat)
+	  const options: any = { year: "numeric", month: "long", day: "numeric" }
+	  return date.toLocaleDateString("en-us", options)
+	}
+
+const { permaLink, date } = Astro.props;
+
+const timestamp = dateFormat(date);
+
+---
+
+	  <p class="text-md text-gray-500 mt-4 mb-5 font-sans">
+		Posted on 
+		<a class="u-url underline" href={permaLink}>
+		  <time class="dt-published" datetime={timestamp}>
+			{timestamp}</time></a> by 
+		<a class="p-author h-card underline" href="https://www.bobmatyas.com">
+		  Bob Matyas
+		</a>
+	  </p>

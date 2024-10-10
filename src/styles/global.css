@@ -87,6 +87,7 @@ a {
 
 .main {
   @apply container m-auto px-10;
+  max-width: 768px;
 }
 
 .main__header {
