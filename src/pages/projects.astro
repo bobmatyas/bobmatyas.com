@@ -1,0 +1,45 @@
+---
+import Page from '../layouts/Page.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+---
+
+<Page
+	title="Projects"
+	description="Lorem ipsum dolor sit amet"
+	pubDate={new Date('August 08 2021')}
+	heroImage="/blog-placeholder-about.jpg"
+>
+<div class="main">
+	<h2 class="main__header">Projects</h2>
+
+	<div class="page">
+	  <div class="grid sm:gap-4 sm:grid-cols-2">
+		<ProjectCard
+		name="Block AI Crawlers WordPress Plugin"
+		description="A plugin that adds robots.txt entries and Meta Tags to WordPress to block AI crawlers."
+		link="https://wordpress.org/plugins/block-ai-crawlers/"
+		linkTitle="View on WordPress.org"
+	></ProjectCard>
+		<ProjectCard
+			name="WordPress Security Research"
+			description="Actively searching for and finding vulnerabilities in WordPress plugins and themes."
+			link="https://www.wordfence.com/threat-intel/vulnerabilities/researchers/bob-matyas"
+			linkTitle="Researcher Profile on Wordfence.com"
+		></ProjectCard>
+
+		<ProjectCard
+			name="Helper for Cloudflare Web Analytics"
+			description="A WordPress plugin to add Cloudflare Analytics to WordPress."
+			link="https://wordpress.org/plugins/helper-for-cloudflare-web-analytics/"
+			linkTitle="View on WordPress.org"
+		></ProjectCard>
+		<ProjectCard
+			name="Details: Show and Hide WordPress Plugin"
+			description="A custom WordPress block adding support for the Details element to show and hide content."
+			link="https://wordpress.org/plugins/details-show-and-hide/"
+			linkTitle="View on WordPress.org"
+		></ProjectCard>
+	  </div>
+	</div>
+  </div>
+</Page>
