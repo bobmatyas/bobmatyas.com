@@ -2,6 +2,7 @@
 title:  "Installing LineageOS on the Amazon Kindle Fire HD"
 pubDate:   "Jul 05 2021"
 description: "An overview of the process of installing LineageOS on an Amazon Kindle Fire HD (2017)."
+tags: ["lineageos", "android", "kindle"]
 ---
 
 ![LineageOS on a Kindle Fire](/images/lineageos-douglas.png)

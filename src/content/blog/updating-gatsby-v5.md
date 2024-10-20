@@ -3,8 +3,7 @@ title:  "Updating to Gatsby v5"
 pubDate:   "Nov 29 2022"
 description: "A quick overview of my experience upgrading from GatsbyJS v4 to v5."
 twitterImage: "/images/gatsbyjs.png"
-tag: 
-    - gatsbyjs
+tags: ["gatsbyjs"]
 ---
 
 ![GatsbyJS](/images/gatsbyjs.png)

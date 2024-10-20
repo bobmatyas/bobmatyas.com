@@ -2,6 +2,7 @@
 title:  "Overriding Inline Styles"
 pubDate:   "2020-01-20"
 description: "A short bit about overriding inline styles in third party scripts."
+tags: ["css"]
 ---
 
 At my day job, I end up spending a lot of time integrating third party scripts into client websites. Ideally, these scripts will offer important functionality in an efficient manner that adds value to both those who run the business and the customers who interact with their online offerings. I’m not sure that  is always the case, but nonetheless third party scripts are quite popular. 

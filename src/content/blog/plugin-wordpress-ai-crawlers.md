@@ -2,8 +2,7 @@
 title: "A Plugin for Blocking AI Crawlers in WordPress"
 pubDate: "May 12 2024"
 description: "I recently wrote a quick plugin to (hopefully) block AI crawlers in WordPress."
-tag:
-  - wordpress
+tags: ["wordpress"]
 ---
 
 Over the several months, the various large language models (LLMs) that power artificial intelligence (AI) tools like ChatGPT and Google’s Gemini have started to allow websites to opt-out from future crawling via `robots.txt`.*

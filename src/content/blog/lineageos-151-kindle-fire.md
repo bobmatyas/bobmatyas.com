@@ -2,6 +2,7 @@
 title:  "Updating Kindle Fire to LineageOS v15.1"
 pubDate:   "Sep 07 2021"
 description: "How I updated my Amazon Kindle Fire HD to run LineageOS v15.1 (based on Android v8.1)"
+tags: ["lineageos", "android", "kindle"]
 ---
 
 ![Android v8.1](/images/android-81.jpg)

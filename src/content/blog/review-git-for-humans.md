@@ -2,6 +2,7 @@
 title:  "Book Review: Git for Humans"
 pubDate:   "Jan 12 2019"
 description: "A review of Git for Humans."
+tags: ["git", "books"]
 ---
 
 ![git for humans cover](/images/cover-git_for_humans.jpg)

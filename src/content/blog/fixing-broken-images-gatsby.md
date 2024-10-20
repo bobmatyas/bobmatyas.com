@@ -2,6 +2,7 @@
 title:  "Fixing Broken Images in Gatsby"
 pubDate:   "Nov 15 2019"
 description: "Rebuilding the cache in Gatsby to fix broken images."
+tags: ["gatsbyjs"]
 ---
 
 A little over a month ago, I moved this web site to a new platform using [GatsbyJS](https://www.gatsbyjs.org/). For the most, it’s been an awesome switch! Gastby allows to me to write in React and generates a highly optimized production build that can be hosted on any number of different static hosts. It’s a great setup and in a lot of ways exemplifies the power of [the JAMstack](https://jamstack.wtf/).

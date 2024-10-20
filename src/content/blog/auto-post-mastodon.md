@@ -3,8 +3,7 @@ title: "Auto-Posting to Mastodon via IFTTT"
 pubDate: "Jul 09 2023"
 description: "A guide to auto-sharing content from your website to Mastodon."
 twitterImage: "/images/070923-mastodon.jpg"
-tag:
-  - wordpress
+tags: ["wordpress"]
 ---
 
 ![Mastodon Image](/images/070923-mastodon.jpg)

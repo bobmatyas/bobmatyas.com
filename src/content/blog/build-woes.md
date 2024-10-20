@@ -3,8 +3,7 @@ title:  "Build Woes"
 pubDate:   "Sept 26 2022"
 description: "Random GatsbyJS build errors and thinking about moving to Astro.build."
 twitterImage: "/images/092622-build_woes.jpg"
-tag: 
-    - javascript
+tags: ["javascript"]
 ---
 
 ![photo of broken glass, or the state of my node_modules](/images/092622-build_woes.jpg)

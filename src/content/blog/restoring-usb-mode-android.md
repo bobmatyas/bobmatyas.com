@@ -2,6 +2,7 @@
 title:  "Restoring the USB Storage Option in Android"
 pubDate:   "Feb 13 2021"
 description: "A quick guide to fixing an Android 5.x device stuck in Charging Only Mode."
+tags: ["android"]
 ---
 
 ![Photo of a sunset](/images/android-511.jpg)

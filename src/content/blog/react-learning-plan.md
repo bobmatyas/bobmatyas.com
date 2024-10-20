@@ -2,6 +2,7 @@
 title:  "React Learning Plan"
 pubDate:   "Jul 03 2019"
 description: "My tentative plan for learning ReactJS."
+tags: ["javascript", "react"]
 ---
 
 Now that I have successfully completed my coding bootcamp, I am making plans to continue my learning. Over the past year of prepping for my bootcamp and the course itself, I've learned that I really like having structured learning plans and times set aside specifically for learning.

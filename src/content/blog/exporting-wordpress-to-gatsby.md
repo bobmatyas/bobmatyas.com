@@ -2,6 +2,7 @@
 title:  "Exporting WordPress to Markdown for GatsbyJS"
 pubDate:   "Feb 16 2020"
 description: "A look into different options for exporting a WordPress blog to Markdown / GatsbyJS."
+tags: ["wordpress", "gatsbyjs"]
 ---
 
 I recently had the opportunity to work on a project that used WordPress but was a good candidate for moving over to [Gatsby](https://www.gatsbyjs.org/ ). I had a positive experience building this blog using Gatsby and enjoyed the ability to write in React and generate a super fast and secure static website. I was looking forward to using Gatsby on a bigger project and eagerly started the migration process.

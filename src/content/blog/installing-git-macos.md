@@ -2,6 +2,7 @@
 title:  "Installing Git and Configuring on MacOS"
 pubDate:   "Jun 16 2020"
 description: "A guide to setting up Git on MacOS and configuring for use with Github."
+tags: ["git", "macos"]
 ---
 
 I recently had to install Git on a Mac for the first time and set it up to connect with Github. While actually installing Git was relatively easy, it isn’t something you do every day. I decided to put my process down for future me and to document it for others since many guides I saw online were missing a few commands.

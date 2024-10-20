@@ -3,8 +3,7 @@ title: "Subscribing to Newsletters via RSS"
 pubDate: "Oct 17 2023"
 description: "A quick guide to subscribing to email newsletters via RSS."
 twitterImage: "/images/101723-rss-newsletters.jpg"
-tag:
-  - rss
+tags: ["rss"]
 ---
 
 ![Decorative: Subscribing to Newsletters RSS](/images/101723-rss-newsletters.jpg)

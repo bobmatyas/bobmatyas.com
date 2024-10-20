@@ -2,6 +2,7 @@
 title:  "Reading this Week"
 pubDate:   "May 05 2019"
 description: "A collection of articles on web development and UI/UX."
+tags: ["links"]
 ---
 
 Here's some web development articles that I have been reading over the past week.

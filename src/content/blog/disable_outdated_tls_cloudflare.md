@@ -2,6 +2,7 @@
 title:  "How to Turn Off Outdated TLS Versions on Cloudflare"
 pubDate:   "Dec 26 2021"
 description: "A guide to disabling outdated TLS versions when using Cloudflare."
+tags: ["cloudflare"]
 ---
 
 ![](/images/cloudflare-ssl.jpg)

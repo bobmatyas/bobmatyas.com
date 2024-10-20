@@ -2,6 +2,7 @@
 title:  "Optimizing Images in WordPress by Adding WebP Support"
 pubDate:   "2020-04-12"
 description: "A guide to enabling WebP support for images in WordPress."
+tags: ["wordpress"]
 ---
 
 ![Screenshot of WordPress Media Library](/images/wordpress-webp.jpg)

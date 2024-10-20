@@ -2,6 +2,7 @@
 title:  "Semantic HTML 5 Elements Chart"
 pubDate:   "Oct 01 2019"
 description: "A nice flow chart of semantic HTML 5 elements"
+tags: ["html"]
 ---
 
 ![semantic html elements chart](/images/html5-element-flowchart.jpg)

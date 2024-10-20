@@ -2,6 +2,7 @@
 title:  "Testimonials Grid for Frontend Mentor"
 pubDate:   "Dec 08 2020"
 description: "A quick mobile-first layout using CSS Grid."
+tags: ["frontend mentor"]
 ---
 
 This is was a quick layout project based on the Testimonials Grid challenge from Frontend Mentor.

@@ -2,6 +2,7 @@
 title:  "Reading this Week"
 pubDate:   "May 19 2019"
 description: "A collection of articles on web development and UI/UX."
+tags: ["links"]
 ---
 
 For the past several months I have been using my Twitter to keep track of web development articles that I’ve read and learned something from, want to save for future reference, or otherwise wanted to keep handy. I now am realizing that Twitter wasn’t the best choice for that. While my best bet would probably be something akin to the old website [del.icio.us]( (https://en.wikipedia.org/wiki/Delicious_(website)) (anyone remember that?) I’m going to start to save articles on this blog.

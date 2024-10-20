@@ -2,6 +2,7 @@
 title:  "Reading this Week"
 pubDate:   "Oct 25 2019"
 description: "Articles on React, JavaScript frameworks, CSS Grid, and web vulnerabilities."
+tags: ["links"]
 ---
 
 Over the past week or so I haven't had as much time to read articles. Instead,  I have been using my spare time to work on getting some more practice on Node, Express, and MongoDB. That said, here's a few articles that caught my eye:

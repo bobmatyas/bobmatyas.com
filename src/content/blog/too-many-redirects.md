@@ -2,6 +2,7 @@
 title:  "Fixing ERR_TOO_MANY_REDIRECTS in WordPress with Cloudflare"
 pubDate:   "Aug 15 2021"
 description: "A guide to fixing the ERR_TOO_MANY_REDIRECTS issue on a WordPress site that is using Cloudflare."
+tags: ["cloudflare"]
 ---
 
 ![Screenshot of the ERR_TOO_MANY_REDIRECTS in WordPress](/images/too-many-redirects.png)

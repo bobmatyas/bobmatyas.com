@@ -2,6 +2,7 @@
 title:  "HacktoberFest 19"
 pubDate:   "Nov 19 2019"
 description: "A great month for open source contributions."
+tags: ["open source"]
 ---
 
 ![photo of hacktoberfest goodies](/images/blog-hacktober_fest.jpg)

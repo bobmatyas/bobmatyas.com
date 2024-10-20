@@ -2,6 +2,7 @@
 title:  "Fylo Dark Theme Landing Page for Frontend Mentor"
 pubDate:   "Jan 12 2021"
 description: "My solution to the Frontend Mentor Fylo Dark Theme landing page."
+tags: ["frontend mentor"]
 ---
 
 One of my favorite ways to practice CSS and keep my skills sharp is to use the excellent layout challenges from Frontend Mentor. This is my solution to [the FAQ Accordion Card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) challenge.

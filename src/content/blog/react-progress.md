@@ -2,6 +2,7 @@
 title:  "React Progress"
 pubDate:   "Jul 14 2019"
 description: "Getting started with React."
+tags: ["javascript", "react"]
 ---
 
 Over the past week, I've begin my journey into learning React. I outlined [my React learning plan](https://www.bobmatyas.com/blog/react-learning-plan/) in an earlier post, but I wanted to give an update.

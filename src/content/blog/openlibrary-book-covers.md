@@ -3,8 +3,7 @@ title: "JavaScript Bookmarklet for Book Cover Images"
 pubDate: "Oct 18 2023"
 description: "A quick bookmarklet for getting book covers."
 twitterImage: "/images/101823-openlibrary.png"
-tag:
-  - javascript
+tags: ["javascript"]
 ---
 
 ![OpenLibrary.org Logo](/images/101823-openlibrary.png)

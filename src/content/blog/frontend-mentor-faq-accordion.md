@@ -2,6 +2,7 @@
 title:  "FAQ Accordion for Frontend Mentor"
 pubDate:   "Nov 27 2020"
 description: "My solution to the Frontend Mentor FAQ Accordion layout challenge and some lessons learned."
+tags: ["frontend mentor"]
 ---
 
 One of my favorite ways to practice CSS and keep my skills sharp is to use the excellent layout challenges from Frontend Mentor. This is my solution to [the FAQ Accordion Card](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam) challenge.

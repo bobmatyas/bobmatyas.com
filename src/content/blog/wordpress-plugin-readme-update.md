@@ -3,8 +3,7 @@ title:  "Updating a WordPress Plugin's readme.txt File"
 pubDate:   "2022-11-05"
 description: "A quick guide to updating a readme.txt file for a plugin published on WordPress.org"
 twitterImage: "/images/100822-wordpress_testing.png"
-tag: 
-    - wordpress
+tags: ["wordpress"]
 ---
 
 ![wordpress logo](/images/100822-wordpress_testing.png)

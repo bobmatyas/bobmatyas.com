@@ -3,8 +3,7 @@ title:  "Options for WordPress Test Environments"
 pubDate:   "2022-10-08"
 description: "An overview of options for creating WordPress test environments."
 twitterImage: "/images/100822-wordpress_testing.png"
-tag: 
-    - wordpress
+tags: ["wordpress"]
 ---
 
 ![photo of broken glass, or the state of my node_modules](/images/100822-wordpress_testing.png)

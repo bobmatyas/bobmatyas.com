@@ -2,6 +2,7 @@
 title:  "Reading this Week"
 pubDate:   "Nov 11 09"
 description: "I've been reading on CSS Grid, React, accessibility, and the history of Mozilla Firefox."
+tags: ["links"]
 ---
 
 Here's some articles over the past week or so that have caught my eye:

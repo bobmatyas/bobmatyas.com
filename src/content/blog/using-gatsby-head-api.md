@@ -3,8 +3,7 @@ title:  "Using the Gatsby Head API"
 pubDate:   "Jan 06 2023"
 description: "Replacing React Helmet with Gatsby Head API"
 twitterImage: "/images/gatsbyjs.png"
-tag: 
-    - gatsbyjs
+tags: ["gatsbyjs"]
 ---
 
 ![GatsbyJS](/images/gatsbyjs.png)

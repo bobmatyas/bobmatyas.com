@@ -2,6 +2,7 @@
 title:  "Under Construction"
 pubDate:   "Dec 14 2021"
 description: "A summary of recent changes on this site."
+tags: ["updates"]
 ---
 
 ![Under Construction Image](/images/under-construction.jpg)

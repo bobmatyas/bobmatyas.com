@@ -2,6 +2,7 @@
 title:  "Reading this Week"
 pubDate:   "Oct 09 2019"
 description: "Articles on React, optimizing images, SEO, and more."
+tags: ["links"]
 ---
 
 When I initially thought about starting a blog, part of my motivation was to have a place to keep useful resources that I come across. I had been relying on Twitter to do that, but its ephermal nature makes it hard to go back and find what I need. Now that I have updated my site to use Gatsby, it's easier to update so I'm looking forward to doing these posts more often.  

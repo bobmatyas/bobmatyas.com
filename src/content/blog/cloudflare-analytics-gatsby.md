@@ -2,6 +2,7 @@
 title:  "Adding Cloudflare Web Analytics to GatsbyJS"
 pubDate:   "Jan 03 2021"
 description: "An overview of how I added Cloudflare's analytics offering to this site."
+tags: ["gatsbyjs", "cloudflare"]
 ---
 
 ![Screenshot of Cloudflare Web Analytics Dashboard](/images/cloudflare-analytics.jpg)
@@ -16,7 +17,7 @@ This goes along with other pro-privacy policies, such as [keeping minimal logs](
  
 ## Options for Installing Cloudflare Web Analytics
 
-Cloudflare Web Analytics can be installed in two ways. The preferred way is for you to proxy your site behind Cloudflare. In this case, Cloudflare generates analytics from their server logs without needing to add any code to your site. If this doesn’t work for you, Cloudflare also allows you to install a JavaScript beacon on your site. It’s a lightweight script (under 10k uncompressed) and only a single line, making it easy to install without having a major impact on site load time. They provide the code snippet and you just have to place it before your closing BODY tag as you would most other third-party  JavaScript. For a standard site, you would just need to open your template and paste the snippet before the closing BODY tag:
+Cloudflare Web Analytics can be installed in two ways. The preferred way is for you to proxy your site behind Cloudflare. In this case, Cloudflare generates analytics from their server logs without needing to add any code to your site. If this doesn’t work for you, Cloudflare also allows you to install a JavaScript beacon on your site. It’s a lightweight script (under 10k uncompressed) and only a single line, making it easy to install without having a major impact on site load time. They provide the code snippet and you just have to place it before your closing BODY tag as you would most other third-party  JavaScript. For a standard site, you would just need to open your template and paste the snippet before the closing BODY tags: ["
 
 ```javascript
 <!-- Cloudflare Web Analytics -->

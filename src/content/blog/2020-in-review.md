@@ -2,6 +2,7 @@
 title:  "2020 in Review"
 pubDate:   "Jan 01 2020"
 description: "Some of the development-related things I was able to accomplish in 2020."
+tags: ["updates"]
 ---
 
 ![Photo of a sunset](/images/2020-review.jpg)
