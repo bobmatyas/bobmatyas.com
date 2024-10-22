@@ -207,3 +207,20 @@ a.projects__card__button:hover {
 	transition: opacity 0.3s;
 	opacity: 1;
 }
+
+#hamburger-menu {
+    width: 15px;
+    height: 10px;
+	display: inline-block;
+    border: none;
+	margin-top: 7px;
+	margin-right: 5px;
+    background: linear-gradient(
+      to bottom, 
+      #3D0E61, #3D0E61 20%, 
+      white 20%, white 40%, 
+      #3D0E61 40%, #3D0E61 60%, 
+      white 60%, white 80%, 
+      #3D0E61 80%, #3D0E61 100%
+    );
+}
