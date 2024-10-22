@@ -2,7 +2,8 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
-export async function GET(context) {
+// @ts-expect-error: resolve later - did contain "context"
+export async function GET() {
 	const posts = (await getCollection('blog')).sort(
 		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 	);

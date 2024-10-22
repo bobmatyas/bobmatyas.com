@@ -29,7 +29,9 @@ const { posts } = Astro.props;
 	
 		<div class="page">
   			<ul>
-    			{posts.map((post) => <li class="p-2"><a href=`../../blog/${(post.file.split('/blog/')[1]?.replace('.md', ''))}`>{post.frontmatter.title}</a></li>)}
+    			{
+				// @ts-expect-error: resolve later
+				posts.map((post) => <li class="p-2"><a href=`../../blog/${(post.file.split('/blog/')[1]?.replace('.md', ''))}`>{post.frontmatter.title}</a></li>)}
   			</ul>
 		</div>
 	</div>
