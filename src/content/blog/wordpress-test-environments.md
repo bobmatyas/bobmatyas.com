@@ -1,6 +1,6 @@
 ---
 title:  "Options for WordPress Test Environments"
-pubDate:   "2022-10-08"
+pubDate:   "Oct 08 2022"
 description: "An overview of options for creating WordPress test environments."
 twitterImage: "/images/100822-wordpress_testing.png"
 tags: ["wordpress"]

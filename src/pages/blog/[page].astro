@@ -1,0 +1,67 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths({ paginate }) {
+  const all = await Astro.glob('../../content/blog/*.md');
+
+  return paginate(all, { pageSize: 5 });
+}
+
+const { page } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="main">
+				<h2 class="main__header">Blog</h2>
+	  
+				<div class="blog__post__list">
+					<div class="blog__post__list">
+						{
+							page.data.map(({ frontmatter, file }) => (
+								<article class="py-10 border-t-2 text-purple-500 border-stone-300 m-0 shadow-none h-entry no-underline  decoration-4 underline-offset-8 leading-loose">
+									  <h3 class="hover:underline">
+										<a href=`../../blog/${(file.split('/blog/')[1]?.replace('.md', ''))}` class="u-uid u-url block">
+											  <span class="dt-published font-sans text-lg font-extrabold">
+												<date date={frontmatter.pubDate}>{frontmatter.pubDate}</date>
+											</span>
+											<br />
+											<span class="p-name font-sans text-3xl font-extrabold">
+												{frontmatter.title}
+											</span>
+										</a>
+									</h3>
+									<p class="text-lg p-summary no-underline hover:no-underline text-gray-600 mt-5">
+										  {frontmatter.description}
+									</p>
+								</article>
+							))
+						}
+					</div>
+					
+					<ul class="md:flex md:justify-between md:flex-row">
+
+						{ page.url.prev && 
+						<li class="my-10 pt-5"><a href={page.url.prev} rel="prev" class="button">← Previous</a></li>
+						}
+						{ page.url.next && <li class="my-10 pt-5"><a href={page.url.next} rel="next" class="button">Next →</a></li>}
+
+					  </ul>
+					
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

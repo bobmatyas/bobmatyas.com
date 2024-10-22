@@ -1,6 +1,6 @@
 ---
 title:  "Updating from Gatsby v2 to v3"
-pubDate:   "March 20 2021"
+pubDate:   "Mar 20 2021"
 description: "A quick overview of how I updated from Gatsby v2 to v3."
 tags: ["gatsbyjs"]
 ---

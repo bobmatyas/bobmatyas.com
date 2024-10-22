@@ -1,6 +1,6 @@
 ---
 title:  "Overriding Inline Styles"
-pubDate:   "2020-01-20"
+pubDate:   "Jan 01 2020"
 description: "A short bit about overriding inline styles in third party scripts."
 tags: ["css"]
 ---

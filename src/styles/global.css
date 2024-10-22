@@ -82,7 +82,7 @@ a {
 }
 
 .burger__menu__item {
-  @apply font-sans text-white font-bold text-2xl underline decoration-slate-300 underline-offset-8;
+  @apply text-center font-sans text-white font-bold text-2xl underline decoration-slate-300 underline-offset-8;
 }
 
 .main {
@@ -181,4 +181,29 @@ a.projects__card__button {
 
 a.projects__card__button:hover {
   @apply text-white text-xs underline decoration-white decoration-1;
+}
+
+.vulnerabilities_table {
+	@apply text-xs border-slate-400 border;
+}
+
+.vulnerabilities_table td, .vulnerabilities_table th, .vulnerabilities_table a {
+	@apply text-sm;
+}
+
+.vulnerabilities_table th {
+	@apply text-left p-4 bg-slate-500 text-white;
+}
+.vulnerabilities_table td {
+	@apply p-4 border border-slate-400;
+}
+
+.vulnerabilities_table tr:nth-child(odd) {
+	@apply bg-slate-100;
+}
+
+.mobile__dialog {
+	@apply w-full h-full z-50 top-0;
+	transition: opacity 0.3s;
+	opacity: 1;
 }
