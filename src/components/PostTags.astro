@@ -9,7 +9,7 @@ const { tags } = Astro.props;
 <div class="flex flex-row">
 	<ul class="flex flex-row gap-5">
 	{tags.map((tag:string) => (
-		<a href={`/tags/${kebabCase(tag)}`} class="p-category bg-slate-600 text-white p-2 uppercase hover:underline text-xs">{tag}</a>
+		<a href={`/blog/tags/${kebabCase(tag)}`} class="p-category bg-slate-600 text-white p-2 uppercase hover:underline text-xs">{tag}</a>
 	  ))}
 	</ul>
 </div>
