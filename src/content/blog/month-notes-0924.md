@@ -19,6 +19,8 @@ I released a new version of my **[Block AI Crawlers](https://wordpress.org/plugi
 
 Even though I work in WordPress every day, I don't have an active site running WordPress. To change that, I revised and [an archive of flyers for punk shows in Grand Rapids](https://grpunkflyers.winesapdesign.com/). I had originally launched the archive on WordPress.com but it was just [one big gallery](https://grpunkflyers.winesapdesign.com/flyers/) and there was no text describing the flyers or organization. To change this, I wrote a Node script to parse through the image files, ran OCR against them, and loaded them as draft posts. This will allow the archive to be more useful. I also gave the site a modern theme that I create by modifying the default TwentyTwenty Four theme. Overall, it was a valuable learning opporutunity.
 
+I forked an copy of [an unofficial API for Backloggd](https://github.com/bobmatyas/Backloggd-API) and made a few modifications. I'm planning to eventually use it to track video games I am playing. It was fun way some practice using [Cheerio](https://cheerio.js.org/docs/intro) for web scraping.
+
 ## WordPress Vulnerabilty Research
 
 I found and responsibly disclosed in the following vulnerabilities in WordPress plugins:
