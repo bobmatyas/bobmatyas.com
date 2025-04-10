@@ -113,6 +113,14 @@ a {
   @apply mb-7 text-lg  text-slate-800;
 }
 
+.page .tag-list {
+	@apply mb-0;
+}
+
+.page .tag {
+  @apply text-xs font-sans text-white;
+}
+
 .page li,
 .page label,
 .page input {
