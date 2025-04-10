@@ -4,12 +4,17 @@ interface Props {
   description: string
   link?: string
   linkTitle?: string
+  tag?: string
 }
 
-const { name, description, link, linkTitle } = Astro.props;
+const { name, description, link, linkTitle, tag } = Astro.props;
 ---
 
 <article class="projects__card p-4 rounded-md text-sm font-sans shadow-sm border border-red-100">
+	<ul class="flex flex-row-reverse tag-list">
+		<li class="tag text-xs bg-zinc-500 p-2 text-white rounded">{tag}</li>
+	</ul>
+	
 	<h3 class="m-0 text-sm">{name}</h3>
 	<p>{description}</p>
 
