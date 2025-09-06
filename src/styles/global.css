@@ -1,5 +1,68 @@
 @import "tailwindcss";
 
+/* Custom prose styles to override or enhance Tailwind's typography */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  @apply font-sans;
+}
+
+/* Ensure prose typography overrides base styles */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  margin-top: 2em !important;
+  margin-bottom: 1em !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+}
+
+.prose h1 {
+  font-size: 2.25em !important;
+}
+
+.prose h2 {
+  font-size: 1.875em !important;
+}
+
+.prose h3 {
+  font-size: 1.5em !important;
+}
+
+.prose h4 {
+  font-size: 1.25em !important;
+}
+
+.prose p {
+  margin-top: 1.25em !important;
+  margin-bottom: 1.25em !important;
+}
+
+.prose ul, .prose ol {
+  list-style-type: disc !important;
+  margin-top: 1.25em !important;
+  margin-bottom: 1.25em !important;
+  padding-left: 1.625em !important;
+}
+
+.prose li {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.prose blockquote {
+  margin-top: 1.6em !important;
+  margin-bottom: 1.6em !important;
+  padding-left: 1em !important;
+  border-left: 0.25em solid #e5e7eb !important;
+}
+
 @font-face {
   font-family: "Gentium Book Basic";
   font-weight: 100 900;
@@ -92,14 +155,6 @@ a {
   @apply text-slate-800 font-extrabold text-2xl md:text-4xl mt-5 mb-10;
 }
 
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6 {
-  @apply font-sans;
-}
 
 .page p {
   @apply font-serif leading-8 text-lg;
